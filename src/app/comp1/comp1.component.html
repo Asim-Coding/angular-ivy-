@@ -1,0 +1,9 @@
+<h2>compoent1</h2>
+<input type="text" #numb>
+<button (click)="addnumber(numb.value)">add number</button>
+
+<ul> 
+        <li *ngFor="let data of list1">
+              {{data}}
+        </li>
+</ul>
